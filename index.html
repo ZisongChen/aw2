@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+  <style type="text/css"></style>
+  <body>
+    <form>
+      <input
+        type="textarea"
+        id="input-username"
+        rows="1"
+        cols="15"
+        placeholder="Username"
+      />
+      <p>
+        <input
+          type="textarea"
+          id="input-email"
+          rows="1"
+          cols="15"
+          placeholder="Email"
+        />
+      </p>
+      <input
+        type="textarea"
+        id="input-address"
+        rows="1"
+        cols="15"
+        placeholder="Address"
+      />
+      <p>
+        <input type="file" accept="image" id="input-image" />
+      </p>
+      <input type="checkbox" id="input-admin" name="box" />admin
+    </form>
+    <button id="submit-data">add</button>
+    <button id="empty-table">empty-table</button>
+    <table id="t">
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Email</th>
+          <th>Address</th>
+          <th>Admin</th>
+          <th>image</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+        <tr>
+          <td>Webmaster</td>
+          <td>123@qq.com</td>
+          <td>london</td>
+          <td>X</td>
+          <td id="1"></td>
+        </tr>
+        <tr>
+          <td>abb</td>
+          <td>qdww@qq.com</td>
+          <td>paris</td>
+          <td>-</td>
+          <td id="2"></td>
+        </tr>
+        <tr>
+          <td>awdwq</td>
+          <td>qadwss@qq.com</td>
+          <td>dawdccs</td>
+          <td>-</td>
+          <td id="3"></td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="src/index.js"></script>
+  </body>
+</html>
